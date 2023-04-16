@@ -86,95 +86,95 @@ dns:
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
 proxies:
-  - {name: "Traffic: 14.1 GB | 200 GB", server: gzbgp01.00117163.xyz, port: 14391, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: "Expire: 2023-04-15", server: gzbgp01.00117163.xyz, port: 14391, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 日用 专线 香港 [0.2]", server: gzbgp01.00117163.xyz, port: 14391, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 日用 专线 狮城 [0.2]", server: gzbgp01.00117163.xyz, port: 14392, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 日用 专线 日本 [0.2]", server: shbgp01.00117163.xyz, port: 14393, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 日用 专线 美国 [0.2]", server: shbgp01.00117163.xyz, port: 14394, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 高级 专线 香港 01, server: gzbgp01.00117163.xyz, port: 14401, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 高级 专线 香港 02, server: gzbgp01.00117163.xyz, port: 14402, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 高级 专线 香港 03, server: gzbgp01.00117163.xyz, port: 14403, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 高级 专线 香港 04, server: gzbgp01.00117163.xyz, port: 14404, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 高级 专线 香港 05, server: gzbgp01.00117163.xyz, port: 14405, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 高级 专线 香港 06, server: gzbgp01.00117163.xyz, port: 14406, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 高级 专线 香港 07, server: gzbgp01.00117163.xyz, port: 14407, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 高级 专线 香港 08, server: gzbgp01.00117163.xyz, port: 14408, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 高级 专线 狮城 01, server: gzbgp01.00117163.xyz, port: 14411, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 高级 专线 狮城 02, server: gzbgp01.00117163.xyz, port: 14412, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 高级 专线 狮城 03, server: gzbgp01.00117163.xyz, port: 14413, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 高级 专线 狮城 04, server: gzbgp01.00117163.xyz, port: 14414, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 高级 专线 狮城 05, server: gzbgp01.00117163.xyz, port: 14415, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 高级 专线 美国 01, server: shbgp01.00117163.xyz, port: 14431, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 高级 专线 美国 02, server: shbgp01.00117163.xyz, port: 14432, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 高级 专线 美国 03, server: shbgp01.00117163.xyz, port: 14433, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 高级 专线 美国 04, server: shbgp01.00117163.xyz, port: 14434, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 高级 专线 美国 05, server: shbgp01.00117163.xyz, port: 14435, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 高级 专线 美国 06, server: shbgp01.00117163.xyz, port: 14436, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 高级 专线 美国 07, server: shbgp01.00117163.xyz, port: 14437, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 高级 专线 美国 08, server: shbgp01.00117163.xyz, port: 14438, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 高级 专线 美国 09, server: shbgp01.00117163.xyz, port: 14439, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 高级 专线 美国 10, server: shbgp01.00117163.xyz, port: 14440, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 高级 专线 韩国 01, server: shbgp01.00117163.xyz, port: 14441, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 高级 专线 韩国 02, server: shbgp01.00117163.xyz, port: 14442, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 高级 专线 台湾 01, server: gzbgp01.00117163.xyz, port: 14451, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 高级 专线 台湾 02, server: gzbgp01.00117163.xyz, port: 14452, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 01, server: shbgp01.00117163.xyz, port: 14421, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 02, server: shbgp01.00117163.xyz, port: 14422, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 03, server: shbgp01.00117163.xyz, port: 14423, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 04, server: shbgp01.00117163.xyz, port: 14424, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 05, server: shbgp01.00117163.xyz, port: 14425, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 06, server: shbgp01.00117163.xyz, port: 14426, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 07, server: shbgp01.00117163.xyz, port: 14427, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 08, server: shbgp01.00117163.xyz, port: 14428, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 标准 专线 香港 01, server: gzbgp01.00117163.xyz, port: 14301, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 标准 专线 香港 02, server: gzbgp01.00117163.xyz, port: 14302, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 标准 专线 香港 03, server: gzbgp01.00117163.xyz, port: 14303, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 标准 专线 狮城 01, server: gzbgp01.00117163.xyz, port: 14311, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 标准 专线 狮城 02, server: gzbgp01.00117163.xyz, port: 14312, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 标准 专线 狮城 03, server: gzbgp01.00117163.xyz, port: 14313, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 标准 专线 美国 01, server: shbgp01.00117163.xyz, port: 14331, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 标准 专线 美国 02, server: shbgp01.00117163.xyz, port: 14332, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 标准 专线 美国 03, server: shbgp01.00117163.xyz, port: 14333, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 标准 专线 美国 04, server: shbgp01.00117163.xyz, port: 14334, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 标准 专线 美国 05, server: shbgp01.00117163.xyz, port: 14335, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 标准 专线 美国 06, server: shbgp01.00117163.xyz, port: 14336, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 标准 专线 韩国 01, server: shbgp01.00117163.xyz, port: 14341, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 标准 专线 日本 01, server: shbgp01.00117163.xyz, port: 14321, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 标准 专线 日本 02, server: shbgp01.00117163.xyz, port: 14322, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 标准 专线 日本 03, server: shbgp01.00117163.xyz, port: 14323, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 标准 专线 日本 04, server: shbgp01.00117163.xyz, port: 14324, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 标准 专线 台湾 01, server: gzbgp01.00117163.xyz, port: 14351, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 特殊 专线 伦敦 01, server: bjbgp01.00117163.xyz, port: 14501, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 特殊 专线 伦敦 02, server: bjbgp01.00117163.xyz, port: 14502, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 特殊 专线 德国 01, server: bjbgp01.00117163.xyz, port: 14500, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 特殊 专线 德国 02, server: bjbgp01.00117163.xyz, port: 14507, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 特殊 专线 巴西 01, server: shbgp01.00117163.xyz, port: 14505, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 特殊 专线 巴西 02, server: shbgp01.00117163.xyz, port: 14512, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 特殊 专线 加拿大 01, server: shbgp01.00117163.xyz, port: 14506, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 特殊 专线 加拿大 02, server: shbgp01.00117163.xyz, port: 14508, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 特殊 专线 土耳其 01, server: bjbgp01.00117163.xyz, port: 14498, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 特殊 专线 土耳其 02, server: bjbgp01.00117163.xyz, port: 14518, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇭 特殊 专线 泰国, server: gzbgp01.00117163.xyz, port: 14461, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 特殊 专线 越南, server: gzbgp01.00117163.xyz, port: 14462, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 特殊 专线 印度, server: gzbgp01.00117163.xyz, port: 14494, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 特殊 专线 悉尼, server: gzbgp01.00117163.xyz, port: 14499, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇪 特殊 专线 迪拜, server: gzbgp01.00117163.xyz, port: 14503, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 特殊 专线 法国, server: bjbgp01.00117163.xyz, port: 14504, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 特殊 专线 荷兰, server: bjbgp01.00117163.xyz, port: 14513, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇩 特殊 专线 印尼, server: gzbgp01.00117163.xyz, port: 14514, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇿🇦 特殊 专线 南非, server: gzbgp01.00117163.xyz, port: 14515, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇭 特殊 专线 菲律宾, server: gzbgp01.00117163.xyz, port: 14491, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇹 特殊 专线 意大利, server: bjbgp01.00117163.xyz, port: 14493, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇪🇸 特殊 专线 西班牙, server: bjbgp01.00117163.xyz, port: 14492, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇺 特殊 专线 匈牙利, server: bjbgp01.00117163.xyz, port: 14496, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇱 特殊 专线 以色列, server: bjbgp01.00117163.xyz, port: 14509, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇦 特殊 专线 乌克兰, server: bjbgp01.00117163.xyz, port: 14511, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 特殊 专线 俄罗斯, server: bjbgp01.00117163.xyz, port: 14495, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇾 特殊 专线 马来西亚, server: gzbgp01.00117163.xyz, port: 14519, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇰 特殊 专线 巴基斯坦, server: gzbgp01.00117163.xyz, port: 14516, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇩 特殊 专线 摩尔多瓦, server: bjbgp01.00117163.xyz, port: 14517, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇷 购物 专线 阿根廷, server: shbgp01.00117163.xyz, port: 14497, type: trojan, password: 9063B44C-013B-F34F-4AEA-CDAA1FE5EA60, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: "Traffic: 9 GB | 400 GB", server: gzbgp01.00117163.xyz, port: 14391, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: "Expire: 2024-04-12", server: gzbgp01.00117163.xyz, port: 14391, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 日用 专线 香港 [0.2]", server: gzbgp01.00117163.xyz, port: 14391, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 日用 专线 狮城 [0.2]", server: gzbgp01.00117163.xyz, port: 14392, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 日用 专线 日本 [0.2]", server: shbgp01.00117163.xyz, port: 14393, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: "🇺🇸 日用 专线 美国 [0.2]", server: shbgp01.00117163.xyz, port: 14394, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 01, server: gzbgp01.00117163.xyz, port: 14401, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 02, server: gzbgp01.00117163.xyz, port: 14402, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 03, server: gzbgp01.00117163.xyz, port: 14403, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 04, server: gzbgp01.00117163.xyz, port: 14404, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 05, server: gzbgp01.00117163.xyz, port: 14405, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 06, server: gzbgp01.00117163.xyz, port: 14406, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 07, server: gzbgp01.00117163.xyz, port: 14407, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 08, server: gzbgp01.00117163.xyz, port: 14408, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 01, server: gzbgp01.00117163.xyz, port: 14411, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 02, server: gzbgp01.00117163.xyz, port: 14412, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 03, server: gzbgp01.00117163.xyz, port: 14413, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 04, server: gzbgp01.00117163.xyz, port: 14414, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 05, server: gzbgp01.00117163.xyz, port: 14415, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 01, server: shbgp01.00117163.xyz, port: 14431, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 02, server: shbgp01.00117163.xyz, port: 14432, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 03, server: shbgp01.00117163.xyz, port: 14433, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 04, server: shbgp01.00117163.xyz, port: 14434, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 05, server: shbgp01.00117163.xyz, port: 14435, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 06, server: shbgp01.00117163.xyz, port: 14436, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 07, server: shbgp01.00117163.xyz, port: 14437, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 08, server: shbgp01.00117163.xyz, port: 14438, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 09, server: shbgp01.00117163.xyz, port: 14439, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 10, server: shbgp01.00117163.xyz, port: 14440, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 高级 专线 韩国 01, server: shbgp01.00117163.xyz, port: 14441, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 高级 专线 韩国 02, server: shbgp01.00117163.xyz, port: 14442, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 高级 专线 台湾 01, server: gzbgp01.00117163.xyz, port: 14451, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 高级 专线 台湾 02, server: gzbgp01.00117163.xyz, port: 14452, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 01, server: shbgp01.00117163.xyz, port: 14421, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 02, server: shbgp01.00117163.xyz, port: 14422, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 03, server: shbgp01.00117163.xyz, port: 14423, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 04, server: shbgp01.00117163.xyz, port: 14424, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 05, server: shbgp01.00117163.xyz, port: 14425, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 06, server: shbgp01.00117163.xyz, port: 14426, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 07, server: shbgp01.00117163.xyz, port: 14427, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 08, server: shbgp01.00117163.xyz, port: 14428, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 标准 专线 香港 01, server: gzbgp01.00117163.xyz, port: 14301, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 标准 专线 香港 02, server: gzbgp01.00117163.xyz, port: 14302, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 标准 专线 香港 03, server: gzbgp01.00117163.xyz, port: 14303, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 标准 专线 狮城 01, server: gzbgp01.00117163.xyz, port: 14311, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 标准 专线 狮城 02, server: gzbgp01.00117163.xyz, port: 14312, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 标准 专线 狮城 03, server: gzbgp01.00117163.xyz, port: 14313, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 01, server: shbgp01.00117163.xyz, port: 14331, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 02, server: shbgp01.00117163.xyz, port: 14332, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 03, server: shbgp01.00117163.xyz, port: 14333, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 04, server: shbgp01.00117163.xyz, port: 14334, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 05, server: shbgp01.00117163.xyz, port: 14335, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 06, server: shbgp01.00117163.xyz, port: 14336, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 标准 专线 韩国 01, server: shbgp01.00117163.xyz, port: 14341, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 标准 专线 日本 01, server: shbgp01.00117163.xyz, port: 14321, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 标准 专线 日本 02, server: shbgp01.00117163.xyz, port: 14322, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 标准 专线 日本 03, server: shbgp01.00117163.xyz, port: 14323, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 标准 专线 日本 04, server: shbgp01.00117163.xyz, port: 14324, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 标准 专线 台湾 01, server: gzbgp01.00117163.xyz, port: 14351, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 特殊 专线 伦敦 01, server: bjbgp01.00117163.xyz, port: 14501, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 特殊 专线 伦敦 02, server: bjbgp01.00117163.xyz, port: 14502, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 特殊 专线 德国 01, server: bjbgp01.00117163.xyz, port: 14500, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 特殊 专线 德国 02, server: bjbgp01.00117163.xyz, port: 14507, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 特殊 专线 巴西 01, server: shbgp01.00117163.xyz, port: 14505, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 特殊 专线 巴西 02, server: shbgp01.00117163.xyz, port: 14512, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 特殊 专线 加拿大 01, server: shbgp01.00117163.xyz, port: 14506, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 特殊 专线 加拿大 02, server: shbgp01.00117163.xyz, port: 14508, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 特殊 专线 土耳其 01, server: bjbgp01.00117163.xyz, port: 14498, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 特殊 专线 土耳其 02, server: bjbgp01.00117163.xyz, port: 14518, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇭 特殊 专线 泰国, server: gzbgp01.00117163.xyz, port: 14461, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 特殊 专线 越南, server: gzbgp01.00117163.xyz, port: 14462, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 特殊 专线 印度, server: gzbgp01.00117163.xyz, port: 14494, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 特殊 专线 悉尼, server: gzbgp01.00117163.xyz, port: 14499, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇪 特殊 专线 迪拜, server: gzbgp01.00117163.xyz, port: 14503, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 特殊 专线 法国, server: bjbgp01.00117163.xyz, port: 14504, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 特殊 专线 荷兰, server: bjbgp01.00117163.xyz, port: 14513, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇩 特殊 专线 印尼, server: gzbgp01.00117163.xyz, port: 14514, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇿🇦 特殊 专线 南非, server: gzbgp01.00117163.xyz, port: 14515, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇵🇭 特殊 专线 菲律宾, server: gzbgp01.00117163.xyz, port: 14491, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇹 特殊 专线 意大利, server: bjbgp01.00117163.xyz, port: 14493, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇪🇸 特殊 专线 西班牙, server: bjbgp01.00117163.xyz, port: 14492, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇺 特殊 专线 匈牙利, server: bjbgp01.00117163.xyz, port: 14496, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇱 特殊 专线 以色列, server: bjbgp01.00117163.xyz, port: 14509, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇦 特殊 专线 乌克兰, server: bjbgp01.00117163.xyz, port: 14511, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 特殊 专线 俄罗斯, server: bjbgp01.00117163.xyz, port: 14495, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 特殊 专线 马来西亚, server: gzbgp01.00117163.xyz, port: 14519, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇵🇰 特殊 专线 巴基斯坦, server: gzbgp01.00117163.xyz, port: 14516, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇩 特殊 专线 摩尔多瓦, server: bjbgp01.00117163.xyz, port: 14517, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇷 购物 专线 阿根廷, server: shbgp01.00117163.xyz, port: 14497, type: trojan, password: D22CAE4B-E97E-0426-B7A7-D0787D385638, sni: iqiyi.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
@@ -184,8 +184,8 @@ proxy-groups:
       - SG
       - TW
       - US
-      - "Traffic: 14.1 GB | 200 GB"
-      - "Expire: 2023-04-15"
+      - "Traffic: 9 GB | 400 GB"
+      - "Expire: 2024-04-12"
       - 🇭🇰 日用 专线 香港 [0.2]
       - 🇸🇬 日用 专线 狮城 [0.2]
       - 🇯🇵 日用 专线 日本 [0.2]
