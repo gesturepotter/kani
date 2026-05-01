@@ -1,0 +1,489 @@
+mixed-port: 7890
+ntp:
+  enable: true
+  server: ntp.aliyun.com
+  port: 123
+  interval: 30
+  write-to-system: false
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+secret: ''
+geodata-mode: true
+geox-url:
+  geoip: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat
+  geosite: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.metadb
+geo-auto-update: true
+geo-update-interval: 240
+profile:
+  store-selected: true
+  store-fake-ip: true
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports:
+        - 80
+        - 8080-8880
+      override-destination: true
+    TLS:
+      ports:
+        - 443
+        - 8443
+      override-destination: true
+    QUIC:
+      ports:
+        - 443
+        - 8443
+dns:
+  enable: true
+  ipv6: false
+  listen: 127.0.0.1:5353
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - https://223.5.5.5/dns-query
+    - https://120.53.53.53/dns-query
+  proxy-server-nameserver:
+    - https://223.5.5.5/dns-query
+    - https://120.53.53.53/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+    - tls://1.1.1.1:853
+    - tls://8.8.8.8:853
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.localhost'
+    - localhost.ptlogin2.qq.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - dns.msftncsi.com
+    - captive.apple.com
+    - +.ntp.org
+    - time.windows.com
+    - time.apple.com
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - stun.l.google.com
+    - +.battlenet.com.cn
+    - +.blizzard.cn
+    - localhost.sec.qq.com
+    - localhost.work.weixin.qq.com
+    - _tcp.*
+    - _udp.*
+    - _services._dns-sd._udp.*
+  nameserver-policy:
+    +.openai.com: https://8.8.8.8/dns-query
+    +.chatgpt.com: https://8.8.8.8/dns-query
+    +.oaistatic.com: https://8.8.8.8/dns-query
+    +.oaiusercontent.com: https://8.8.8.8/dns-query
+    +.claude.ai: https://8.8.8.8/dns-query
+    +.anthropic.com: https://8.8.8.8/dns-query
+    +.google.com: https://8.8.8.8/dns-query
+    +.googleapis.com: https://8.8.8.8/dns-query
+    +.gstatic.com: https://8.8.8.8/dns-query
+    +.googlevideo.com: https://8.8.8.8/dns-query
+    +.youtube.com: https://8.8.8.8/dns-query
+    +.youtu.be: https://8.8.8.8/dns-query
+    +.gemini.google.com: https://8.8.8.8/dns-query
+    +.github.com: https://8.8.8.8/dns-query
+    +.githubusercontent.com: https://8.8.8.8/dns-query
+    +.githubassets.com: https://8.8.8.8/dns-query
+    +.ghcr.io: https://8.8.8.8/dns-query
+    +.telegram.org: https://8.8.8.8/dns-query
+    +.t.me: https://8.8.8.8/dns-query
+    +.discord.com: https://8.8.8.8/dns-query
+    +.discord.gg: https://8.8.8.8/dns-query
+    +.netflix.com: https://8.8.8.8/dns-query
+    +.nflxvideo.net: https://8.8.8.8/dns-query
+    +.spotify.com: https://8.8.8.8/dns-query
+    +.scdn.co: https://8.8.8.8/dns-query
+    +.disneyplus.com: https://8.8.8.8/dns-query
+    +.hulu.com: https://8.8.8.8/dns-query
+    +.facebook.com: https://8.8.8.8/dns-query
+    +.fbcdn.net: https://8.8.8.8/dns-query
+    +.instagram.com: https://8.8.8.8/dns-query
+    +.x.com: https://8.8.8.8/dns-query
+    +.twitter.com: https://8.8.8.8/dns-query
+    +.twimg.com: https://8.8.8.8/dns-query
+    +.tiktok.com: https://8.8.8.8/dns-query
+    +.reddit.com: https://8.8.8.8/dns-query
+    +.redd.it: https://8.8.8.8/dns-query
+    +.redditstatic.com: https://8.8.8.8/dns-query
+    +.cloudflare.com: https://8.8.8.8/dns-query
+    +.cloudfront.net: https://8.8.8.8/dns-query
+    +.amazonaws.com: https://8.8.8.8/dns-query
+    +.azureedge.net: https://8.8.8.8/dns-query
+    +.akamaized.net: https://8.8.8.8/dns-query
+    +.docker.com: https://8.8.8.8/dns-query
+    +.docker.io: https://8.8.8.8/dns-query
+    +.npmjs.org: https://8.8.8.8/dns-query
+    +.pypi.org: https://8.8.8.8/dns-query
+    +.stackoverflow.com: https://8.8.8.8/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+proxies:
+  - name: 官网：快车.com
+    type: vmess
+    server: usjiakuan.wj-kc.com
+    port: 40212
+    uuid: fc6e219d-6048-4fb8-a53c-6479d0bf303c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+  - name: 请下载快车VPN客户端
+    type: vmess
+    server: usjiakuan.wj-kc.com
+    port: 40212
+    uuid: fc6e219d-6048-4fb8-a53c-6479d0bf303c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+  - name: 美国动态住宅[*动态家宽*] [8.0倍消耗]
+    type: vmess
+    server: usjiakuan.wj-kc.com
+    port: 40212
+    uuid: fc6e219d-6048-4fb8-a53c-6479d0bf303c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+  - name: 墨西哥家宽[*动态家宽*] [5.0倍消耗]
+    type: vmess
+    server: mexico.wj-kc.com
+    port: 49470
+    uuid: 8bc0f3e1-a775-4abf-9082-35e6f04dddad
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+  - name: 多哥原生[原生IP] [2.0倍消耗]
+    type: vmess
+    server: 154.70.82.31
+    port: 20121
+    uuid: b585a119-ef9a-42ef-be40-14086aa314f7
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+  - name: 伊拉克原生[原生IP] [2.0倍消耗]
+    type: vmess
+    server: 193.161.200.47
+    port: 20121
+    uuid: d3934dcd-a881-420f-8473-cb5e912fb3be
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+  - name: 尼日利亚[原生IP] [2.0倍消耗]
+    type: vmess
+    server: 176.97.192.121
+    port: 20371
+    uuid: ecfe55d0-223a-4497-ab57-43630a50b278
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+  - name: 冰岛[转发] [1.0倍消耗]
+    type: vmess
+    server: 45.83.21.225
+    port: 20071
+    uuid: b1c0acb6-34f3-43bf-9758-ef8fa9a1fe56
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+proxy-groups:
+  - name: 节点列表
+    type: select
+    proxies:
+      - ⭐️ 自动选择
+      - 官网：快车.com
+      - 请下载快车VPN客户端
+      - 美国动态住宅[*动态家宽*] [8.0倍消耗]
+      - 墨西哥家宽[*动态家宽*] [5.0倍消耗]
+      - 多哥原生[原生IP] [2.0倍消耗]
+      - 伊拉克原生[原生IP] [2.0倍消耗]
+      - 尼日利亚[原生IP] [2.0倍消耗]
+      - 冰岛[转发] [1.0倍消耗]
+  - name: ⭐️ 自动选择
+    type: url-test
+    include-all-proxies: true
+    url: http://www.gstatic.com/generate_204
+    interval: '28800'
+  - name: AI服务
+    type: url-test
+    include-all-proxies: true
+    filter: 美国|US|United States|日本|JP|Japan|新加坡|SG|Singapore|台湾|TW|Taiwan
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+  - name: 流媒体
+    type: url-test
+    include-all-proxies: true
+    filter: 香港|HK|Hong Kong|台湾|TW|Taiwan|日本|JP|Japan|新加坡|SG|Singapore|美国|US|United States
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+rules:
+  - DOMAIN-SUFFIX,openai.com,AI服务
+  - DOMAIN-SUFFIX,chatgpt.com,AI服务
+  - DOMAIN-SUFFIX,oaistatic.com,AI服务
+  - DOMAIN-SUFFIX,oaiusercontent.com,AI服务
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,AI服务
+  - DOMAIN-SUFFIX,claude.ai,AI服务
+  - DOMAIN-SUFFIX,anthropic.com,AI服务
+  - DOMAIN-SUFFIX,perplexity.ai,AI服务
+  - DOMAIN-SUFFIX,gemini.google.com,AI服务
+  - DOMAIN-SUFFIX,bard.google.com,AI服务
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com,AI服务
+  - DOMAIN-SUFFIX,ai.google.dev,AI服务
+  - DOMAIN-SUFFIX,aistudio.google.com,AI服务
+  - DOMAIN-SUFFIX,makersuite.google.com,AI服务
+  - DOMAIN-SUFFIX,copilot.microsoft.com,AI服务
+  - DOMAIN-SUFFIX,copilot.cloud.microsoft,AI服务
+  - DOMAIN-SUFFIX,sydney.bing.com,AI服务
+  - DOMAIN-SUFFIX,midjourney.com,AI服务
+  - DOMAIN-SUFFIX,stability.ai,AI服务
+  - DOMAIN-SUFFIX,huggingface.co,AI服务
+  - DOMAIN-SUFFIX,hf.co,AI服务
+  - DOMAIN-SUFFIX,cohere.ai,AI服务
+  - DOMAIN-SUFFIX,cohere.com,AI服务
+  - DOMAIN-SUFFIX,mistral.ai,AI服务
+  - DOMAIN-SUFFIX,groq.com,AI服务
+  - DOMAIN-SUFFIX,cursor.sh,AI服务
+  - DOMAIN-SUFFIX,cursor.com,AI服务
+  - DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com,AI服务
+  - DOMAIN-SUFFIX,character.ai,AI服务
+  - DOMAIN-SUFFIX,poe.com,AI服务
+  - DOMAIN-SUFFIX,replicate.com,AI服务
+  - DOMAIN-SUFFIX,runwayml.com,AI服务
+  - DOMAIN-SUFFIX,elevenlabs.io,AI服务
+  - DOMAIN-SUFFIX,leonardo.ai,AI服务
+  - DOMAIN-SUFFIX,suno.ai,AI服务
+  - DOMAIN-SUFFIX,suno.com,AI服务
+  - DOMAIN-SUFFIX,v0.dev,AI服务
+  - DOMAIN-SUFFIX,sdk.vercel.ai,AI服务
+  - DOMAIN-SUFFIX,grok.com,AI服务
+  - DOMAIN-SUFFIX,x.ai,AI服务
+  - DOMAIN-SUFFIX,together.ai,AI服务
+  - DOMAIN-SUFFIX,together.xyz,AI服务
+  - DOMAIN-SUFFIX,moonshot.cn,AI服务
+  - DOMAIN-KEYWORD,openai,AI服务
+  - DOMAIN-KEYWORD,chatgpt,AI服务
+  - DOMAIN-SUFFIX,netflix.com,流媒体
+  - DOMAIN-SUFFIX,netflix.net,流媒体
+  - DOMAIN-SUFFIX,nflxext.com,流媒体
+  - DOMAIN-SUFFIX,nflximg.com,流媒体
+  - DOMAIN-SUFFIX,nflximg.net,流媒体
+  - DOMAIN-SUFFIX,nflxso.net,流媒体
+  - DOMAIN-SUFFIX,nflxvideo.net,流媒体
+  - DOMAIN-SUFFIX,disneyplus.com,流媒体
+  - DOMAIN-SUFFIX,dssott.com,流媒体
+  - DOMAIN-SUFFIX,bamgrid.com,流媒体
+  - DOMAIN-SUFFIX,hbo.com,流媒体
+  - DOMAIN-SUFFIX,hboasia.com,流媒体
+  - DOMAIN-SUFFIX,hbogo.com,流媒体
+  - DOMAIN-SUFFIX,hbogoasia.hk,流媒体
+  - DOMAIN-SUFFIX,hulu.com,流媒体
+  - DOMAIN-SUFFIX,huluim.com,流媒体
+  - DOMAIN-SUFFIX,hulustream.com,流媒体
+  - DOMAIN-SUFFIX,spotify.com,流媒体
+  - DOMAIN-SUFFIX,scdn.co,流媒体
+  - DOMAIN-SUFFIX,spoti.fi,流媒体
+  - DOMAIN-SUFFIX,youtube.com,流媒体
+  - DOMAIN-SUFFIX,youtu.be,流媒体
+  - DOMAIN-SUFFIX,googlevideo.com,流媒体
+  - DOMAIN-SUFFIX,ytimg.com,流媒体
+  - DOMAIN-SUFFIX,tiktok.com,流媒体
+  - DOMAIN-SUFFIX,tiktokv.com,流媒体
+  - DOMAIN-SUFFIX,ttlivecdn.com,流媒体
+  - DOMAIN-SUFFIX,ibyteimg.com,流媒体
+  - DOMAIN-SUFFIX,twitch.tv,流媒体
+  - DOMAIN-SUFFIX,twitchcdn.net,流媒体
+  - DOMAIN-SUFFIX,jtvnw.net,流媒体
+  - DOMAIN-SUFFIX,ttvnw.net,流媒体
+  - DOMAIN-SUFFIX,vimeo.com,流媒体
+  - DOMAIN-SUFFIX,videopress.com,流媒体
+  - DOMAIN-SUFFIX,soundcloud.com,流媒体
+  - DOMAIN-SUFFIX,deezer.com,流媒体
+  - DOMAIN-SUFFIX,pandora.com,流媒体
+  - DOMAIN-SUFFIX,joox.com,流媒体
+  - DOMAIN-SUFFIX,mytvsuper.com,流媒体
+  - DOMAIN-SUFFIX,tvb.com,流媒体
+  - DOMAIN-SUFFIX,viu.tv,流媒体
+  - DOMAIN-SUFFIX,abema.tv,流媒体
+  - DOMAIN-SUFFIX,abema.io,流媒体
+  - DOMAIN-SUFFIX,ameba.jp,流媒体
+  - DOMAIN-SUFFIX,bahamut.com.tw,流媒体
+  - DOMAIN-SUFFIX,gamer.com.tw,流媒体
+  - DOMAIN-SUFFIX,chocotv.com.tw,流媒体
+  - DOMAIN-SUFFIX,fox.com,流媒体
+  - DOMAIN-SUFFIX,foxplus.com,流媒体
+  - DOMAIN-SUFFIX,foxplay.com,流媒体
+  - DOMAIN-SUFFIX,foxnow.com,流媒体
+  - DOMAIN-SUFFIX,fxnetworks.com,流媒体
+  - DOMAIN-SUFFIX,vevo.com,流媒体
+  - DOMAIN-SUFFIX,zattoo.com,流媒体
+  - DOMAIN-SUFFIX,crackle.com,流媒体
+  - DOMAIN-SUFFIX,dailymotion.com,流媒体
+  - DOMAIN-SUFFIX,dnvod.tv,流媒体
+  - DOMAIN-SUFFIX,google.com,节点列表
+  - DOMAIN-SUFFIX,gstatic.com,节点列表
+  - DOMAIN-SUFFIX,googleapis.com,节点列表
+  - DOMAIN-SUFFIX,gmail.com,节点列表
+  - DOMAIN-SUFFIX,appspot.com,节点列表
+  - DOMAIN-SUFFIX,blogger.com,节点列表
+  - DOMAIN-SUFFIX,dropbox.com,节点列表
+  - DOMAIN-SUFFIX,dropboxusercontent.com,节点列表
+  - DOMAIN-SUFFIX,github.com,节点列表
+  - DOMAIN-KEYWORD,github,节点列表
+  - DOMAIN-SUFFIX,telegram.org,节点列表
+  - DOMAIN-SUFFIX,telegram.me,节点列表
+  - DOMAIN-SUFFIX,t.me,节点列表
+  - DOMAIN-SUFFIX,telegra.ph,节点列表
+  - DOMAIN-SUFFIX,tdesktop.com,节点列表
+  - DOMAIN-SUFFIX,line.me,节点列表
+  - DOMAIN-SUFFIX,line-apps.com,节点列表
+  - DOMAIN-SUFFIX,line-scdn.net,节点列表
+  - DOMAIN-SUFFIX,facebook.com,节点列表
+  - DOMAIN-SUFFIX,fb.com,节点列表
+  - DOMAIN-SUFFIX,fb.me,节点列表
+  - DOMAIN-SUFFIX,fbcdn.net,节点列表
+  - DOMAIN-SUFFIX,fbsbx.com,节点列表
+  - DOMAIN-SUFFIX,instagram.com,节点列表
+  - DOMAIN-SUFFIX,cdninstagram.com,节点列表
+  - DOMAIN-SUFFIX,whatsapp.com,节点列表
+  - DOMAIN-SUFFIX,whatsapp.net,节点列表
+  - DOMAIN-SUFFIX,twitter.com,节点列表
+  - DOMAIN-SUFFIX,x.com,节点列表
+  - DOMAIN-SUFFIX,t.co,节点列表
+  - DOMAIN-SUFFIX,twimg.com,节点列表
+  - DOMAIN-SUFFIX,reddit.com,节点列表
+  - DOMAIN-SUFFIX,redditmedia.com,节点列表
+  - DOMAIN-SUFFIX,quora.com,节点列表
+  - DOMAIN-SUFFIX,medium.com,节点列表
+  - DOMAIN-SUFFIX,wikipedia.org,节点列表
+  - DOMAIN-SUFFIX,nytimes.com,节点列表
+  - DOMAIN-SUFFIX,reuters.com,节点列表
+  - DOMAIN-SUFFIX,bloomberg.com,节点列表
+  - DOMAIN-SUFFIX,wsj.com,节点列表
+  - DOMAIN-SUFFIX,duckduckgo.com,节点列表
+  - DOMAIN-SUFFIX,discordapp.com,节点列表
+  - DOMAIN-SUFFIX,discordapp.net,节点列表
+  - DOMAIN-SUFFIX,signal.org,节点列表
+  - DOMAIN-SUFFIX,torproject.org,节点列表
+  - DOMAIN-SUFFIX,archive.org,节点列表
+  - DOMAIN-SUFFIX,mega.nz,节点列表
+  - DOMAIN-SUFFIX,pixiv.net,节点列表
+  - DOMAIN-SUFFIX,steamcommunity.com,节点列表
+  - DOMAIN-SUFFIX,store.steampowered.com,节点列表
+  - DOMAIN-SUFFIX,api.steampowered.com,节点列表
+  - DOMAIN-SUFFIX,media.steampowered.com,节点列表
+  - DOMAIN-SUFFIX,live.com,节点列表
+  - DOMAIN-SUFFIX,bing.com,节点列表
+  - DOMAIN-SUFFIX,yahoo.com,节点列表
+  - DOMAIN-SUFFIX,linkedin.com,节点列表
+  - DOMAIN-SUFFIX,qq.com,DIRECT
+  - DOMAIN-SUFFIX,qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,tencent.com,DIRECT
+  - DOMAIN-SUFFIX,weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,wechat.com,DIRECT
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.com,DIRECT
+  - DOMAIN-SUFFIX,jd.com,DIRECT
+  - DOMAIN-SUFFIX,360buyimg.com,DIRECT
+  - DOMAIN-SUFFIX,alibaba.com,DIRECT
+  - DOMAIN-SUFFIX,alicdn.com,DIRECT
+  - DOMAIN-SUFFIX,amap.com,DIRECT
+  - DOMAIN-SUFFIX,dingtalk.com,DIRECT
+  - DOMAIN-SUFFIX,youku.com,DIRECT
+  - DOMAIN-SUFFIX,ykimg.com,DIRECT
+  - DOMAIN-SUFFIX,iqiyi.com,DIRECT
+  - DOMAIN-SUFFIX,iqiyipic.com,DIRECT
+  - DOMAIN-SUFFIX,mgtv.com,DIRECT
+  - DOMAIN-SUFFIX,hitv.com,DIRECT
+  - DOMAIN-SUFFIX,bilibili.com,DIRECT
+  - DOMAIN-SUFFIX,biliapi.com,DIRECT
+  - DOMAIN-SUFFIX,biliapi.net,DIRECT
+  - DOMAIN-SUFFIX,biligame.com,DIRECT
+  - DOMAIN-SUFFIX,biligame.net,DIRECT
+  - DOMAIN-SUFFIX,acg.tv,DIRECT
+  - DOMAIN-SUFFIX,acgvideo.com,DIRECT
+  - DOMAIN-SUFFIX,b23.tv,DIRECT
+  - DOMAIN-SUFFIX,hdslb.com,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,bdstatic.com,DIRECT
+  - DOMAIN-SUFFIX,163.com,DIRECT
+  - DOMAIN-SUFFIX,126.net,DIRECT
+  - DOMAIN-SUFFIX,163yun.com,DIRECT
+  - DOMAIN-SUFFIX,music.163.com,DIRECT
+  - DOMAIN-SUFFIX,music.126.net,DIRECT
+  - DOMAIN-SUFFIX,weibo.com,DIRECT
+  - DOMAIN-SUFFIX,weibo.cn,DIRECT
+  - DOMAIN-SUFFIX,zhihu.com,DIRECT
+  - DOMAIN-SUFFIX,zhimg.com,DIRECT
+  - DOMAIN-SUFFIX,xiaomi.com,DIRECT
+  - DOMAIN-SUFFIX,mifile.cn,DIRECT
+  - DOMAIN-SUFFIX,mi-img.com,DIRECT
+  - DOMAIN-SUFFIX,meituan.net,DIRECT
+  - DOMAIN-SUFFIX,yangkeduo.com,DIRECT
+  - DOMAIN-SUFFIX,toutiao.com,DIRECT
+  - DOMAIN-SUFFIX,snssdk.com,DIRECT
+  - DOMAIN-SUFFIX,pstatp.com,DIRECT
+  - DOMAIN-SUFFIX,bytecdn.cn,DIRECT
+  - DOMAIN-SUFFIX,ipip.net,DIRECT
+  - DOMAIN-SUFFIX,ip.cn,DIRECT
+  - DOMAIN-SUFFIX,ip.la,DIRECT
+  - DOMAIN-SUFFIX,whatismyip.com,DIRECT
+  - DOMAIN-KEYWORD,announce,DIRECT
+  - DOMAIN-KEYWORD,torrent,DIRECT
+  - DOMAIN-KEYWORD,tracker,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - DOMAIN,lf3-static.bytednsdoc.com,DIRECT
+  - DOMAIN,v5-dy-o-abtest.zjcdn.com,DIRECT
+  - DOMAIN-SUFFIX,amemv.com,DIRECT
+  - DOMAIN-SUFFIX,douyincdn.com,DIRECT
+  - DOMAIN-SUFFIX,douyinpic.com,DIRECT
+  - DOMAIN-SUFFIX,douyinstatic.com,DIRECT
+  - DOMAIN-SUFFIX,douyinvod.com,DIRECT
+  - DOMAIN-SUFFIX,idouyinvod.com,DIRECT
+  - DOMAIN-SUFFIX,ixigua.com,DIRECT
+  - DOMAIN-SUFFIX,ixiguavideo.com,DIRECT
+  - DOMAIN-SUFFIX,pstatp.com,DIRECT
+  - DOMAIN-SUFFIX,snssdk.com,DIRECT
+  - DOMAIN-SUFFIX,toutiao.com,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,91.108.4.0/22,节点列表
+  - IP-CIDR,91.108.8.0/22,节点列表
+  - IP-CIDR,91.108.12.0/22,节点列表
+  - IP-CIDR,91.108.16.0/22,节点列表
+  - IP-CIDR,91.108.56.0/22,节点列表
+  - IP-CIDR,109.239.140.0/24,节点列表
+  - IP-CIDR,149.154.160.0/20,节点列表
+  - GEOIP,CN,DIRECT
+  - MATCH,节点列表
